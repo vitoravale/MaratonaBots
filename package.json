@@ -1,0 +1,19 @@
+{
+  "name": "bot-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Vitor A. Vale <vitoravale@outlook.com> (http://www.vitoravale.com.br)",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^3.13.1",
+    "botbuilder-cognitiveservices": "^1.1.0",
+    "install": "^0.10.2",
+    "npm": "^5.6.0",
+    "restify": "^6.3.4"
+  }
+}
