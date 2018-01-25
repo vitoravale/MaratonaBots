@@ -6,6 +6,6 @@ Exemplo do módulo 2 da [Maratona Bots](https://ticapacitacion.com/curso/botspt/
 
 ### Instalação
 
-1. Faça o clone deste projeto com `git clone https://github.com/vitoravale/MaratonaBots-Modulo2.git`
+1. Faça o clone deste projeto com `git clone https://github.com/vitoravale/MaratonaBots.git`
 2. Entre na pasta do projeto e instale as dependências com `npm install`
 3. Rode a aplicação com `npm start`
