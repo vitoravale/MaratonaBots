@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "m2l2": "node ./modulo2-licao2/app.js"
+    "m2l2": "node ./modulo2-licao2/app.js",
+    "m2l3": "node ./modulo2-licao3/app.js"
   },
   "keywords": [],
   "author": "Vitor A. Vale <vitoravale@outlook.com> (http://www.vitoravale.com.br)",
