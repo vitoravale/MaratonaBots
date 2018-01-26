@@ -17,7 +17,7 @@ Módulo 2 Lição 2: QnA Maker e Active Learning
 npm run m2l2
 ```
 
-Módulo 3 Lição 3: Testando o seu FAQ Bot
+Módulo 2 Lição 3: Testando o seu FAQ Bot
 
 ```console
 npm run m2l3
