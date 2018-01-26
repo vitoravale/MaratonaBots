@@ -31,7 +31,7 @@ Você precisará informar sua **knowledgeBaseId** e **subscriptionKey** dentro d
 
 ### Módulos extras
 
-Em complemento à lição 3 onde implementa-se um dos tipos de rich-cards, o HeroCard, existe um exemplo com outros modelos de card disponíveis
+Em complemento à lição 3 do módulo 2 onde implementa-se um dos tipos de rich-cards, o HeroCard, existe um exemplo com outros modelos de card disponíveis
 ```console
 npm run rich-cards
 ```
