@@ -1,3 +1,6 @@
+// load env variables from the .env file
+require('dotenv-extended').load()
+
 const builder = require('botbuilder')
 const restify = require('restify')
 const cognitiveServices = require('botbuilder-cognitiveservices')
@@ -26,8 +29,8 @@ server.post('/api/messages', connector.listen())
 //=========================================================
 
 const recognizer = new cognitiveServices.QnAMakerRecognizer({
-    knowledgeBaseId: '',
-    subscriptionKey: '',
+    knowledgeBaseId: process.env.QNA_KNOWLEDGE_BASE_ID,
+    subscriptionKey: process.env.QNA_SUBSCRIPTION_KEY,
     top: 3
 })
 
