@@ -13,6 +13,7 @@
   "dependencies": {
     "botbuilder": "^3.13.1",
     "botbuilder-cognitiveservices": "^1.1.0",
+    "dotenv-extended": "^2.0.1",
     "install": "^0.10.2",
     "npm": "^5.6.0",
     "restify": "^6.3.4"
