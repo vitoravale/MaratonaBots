@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "m2l2": "node ./modulo2-licao2/app.js",
-    "m2l3": "node ./modulo2-licao3/app.js"
+    "m2l3": "node ./modulo2-licao3/app.js",
+    "rich-cards": "node ./rich-cards/app.js"
   },
   "keywords": [
     "botbuilder",
@@ -31,5 +32,8 @@
     "install": "^0.10.2",
     "npm": "^5.6.0",
     "restify": "^6.3.4"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   }
 }

@@ -28,3 +28,10 @@ npm run m2l3
 Você precisará informar sua **knowledgeBaseId** e **subscriptionKey** dentro do arquivo __.env__, para isto basta acessar sua lista de serviços na plataforma [QnA Maker](https://qnamaker.ai/) e clicar no botão __View Code__ do serviço a ser utilizado, a janela exibda conter os dados que você precisa utilizar. A imagem abaixo demonstra a posição de cada item na tela.
 
 ![Imagem da tela de exemplo de código da plataforma QnA Maker](/images/codigos.png)
+
+### Módulos extras
+
+Em complemento à lição 3 onde implementa-se um dos tipos de rich-cards, o HeroCard, existe um exemplo com outros modelos de card disponíveis
+```console
+npm run rich-cards
+```
