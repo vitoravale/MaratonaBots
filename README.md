@@ -9,19 +9,14 @@ Exemplos de códigos da [Maratona Bots](https://ticapacitacion.com/curso/botspt/
 1. Faça o clone deste projeto com `git clone https://github.com/vitoravale/MaratonaBots.git`
 2. Entre na pasta do projeto e instale as dependências com `npm install`
 3. Atualize as chaves `QNA_KNOWLEDGE_BASE_ID` e `QNA_SUBSCRIPTION_KEY` dentro do arquivo `.env` na raiz do projeto para que a conexão com o QnA Maker ocorra
-3. Rode a aplicação utilizando:
-  
-Módulo 2 Lição 2: QnA Maker e Active Learning 
+3. Rode a aplicação utilizando `npm run CÓDIGO`, onde __código__ pode ser:
 
-```console
-npm run m2l2
-```
+| Módulo        | Lição           | Código  |
+| ------------- |-------------| -----:|
+| Módulo 2      | Lição 2: QnA Maker e Active Learning | m2l2 |
+| Módulo 2      | Lição 3: Testando o seu FAQ Bot      |   m2l3 |
+| Módulo 3 | Lição 1: Componentes Multimídia      |    m3l1 |
 
-Módulo 2 Lição 3: Testando o seu FAQ Bot
-
-```console
-npm run m2l3
-```
 
 ### Recuperar as chaves do QnA Maker
 
