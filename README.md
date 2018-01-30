@@ -26,6 +26,7 @@ Exemplos de códigos da [Maratona Bots](https://ticapacitacion.com/curso/botspt/
 | Módulo 3 | Lição 1: Componentes Multimídia | m3l1 |
 | Módulo 3 | Lição 2: Componentes de Navegação e Manipulação de Arquivos | m3l2 |
 | Módulo 3 | Lição 3: Ciclo de vida de um diálogo | m3l3 |
+| Módulo 3 | Lição 4: Construção de uma API de Dados no Azure | m3l4 |
 
 #### Recuperar as chaves do QnA Maker
 
