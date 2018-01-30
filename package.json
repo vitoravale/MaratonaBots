@@ -8,6 +8,7 @@
     "m2l3": "node ./modulo2/licao3/app.js",
     "m3l1": "node ./modulo3/licao1/app.js",
     "m3l2": "node ./modulo3/licao2/app.js",
+    "m3l3": "node ./modulo3/licao3/app.js",
     "rich-cards": "node ./extras/rich-cards/app.js"
   },
   "keywords": [
