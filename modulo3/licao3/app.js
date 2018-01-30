@@ -3,7 +3,6 @@ require('dotenv-extended').load()
 
 const builder = require('botbuilder')
 const restify = require('restify')
-const cognitiveServices = require('botbuilder-cognitiveservices')
 
 
 //=========================================================
