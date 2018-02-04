@@ -10,6 +10,8 @@
     "m3l2": "node ./modulo3/licao2/app.js",
     "m3l3": "node ./modulo3/licao3/app.js",
     "m3l4": "node ./modulo3/licao4/app.js",
+    "m3l5m": "node ./modulo3/licao5/manual/app.js",
+    "m3l5w": "node ./modulo3/licao5/workflow/app.js",
     "rich-cards": "node ./extras/rich-cards/app.js"
   },
   "keywords": [
@@ -33,6 +35,7 @@
     "botbuilder": "^3.13.1",
     "botbuilder-cognitiveservices": "^1.1.0",
     "dotenv-extended": "^2.0.1",
+    "formflowbotbuilder": "^0.1.4",
     "install": "^0.10.2",
     "npm": "^5.6.0",
     "request": "^2.83.0",

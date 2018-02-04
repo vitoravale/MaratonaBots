@@ -1,0 +1,70 @@
+[
+    {
+        "id": "salgado",
+        "prompt": "Por favor escolha seu salgado",
+        "errorPrompt": "opção inválida, por favor seleione abaixo",
+        "type": "choice",
+        "choices": [
+            {
+                "value": "Esfirra",
+                "synonyms": ["Esfirra", "Esfira", "isfirra", "esfira", "isfira", "i"]
+            },
+            {
+                "value": "Quibe",
+                "synonyms": ["Quibe", "kibe", "q", "k"]
+            },
+            {
+                "value": "Coxinha",
+                "synonyms": ["Coxinha", "cochinha", "coxa", "c"]
+            }
+        ]
+    },
+    {
+        "id": "bebida",
+        "prompt": "Por favor escolha sua bebida",
+        "errorPrompt": "opção inválida, por favor seleione abaixo",
+        "type": "choice",
+        "choices": [
+            {
+                "value": "Água",
+                "synonyms": ["Água", "agua", "h2o", "a"]
+            },
+            {
+                "value": "Refrigerante",
+                "synonyms": ["Refrigerante", "Refri", "r", "coca"]
+            },
+            {
+                "value": "Suco",
+                "synonyms": ["Suco", "s"]
+            }
+        ]
+    },
+    {
+        "id": "entrega",
+        "prompt": "Por favor escolha a forma de entrega",
+        "errorPrompt": "opção inválida, por favor seleione abaixo",
+        "type": "choice",
+        "choices": [
+            "Retirada", 
+            {
+                "value": "Entrega",
+                "synonyms": ["Entrega", "motoboy", "moto", "me manda", "motoca", "em casa"]
+            }    
+        ]
+    },
+    {
+        "id": "nome",
+        "prompt": "Por favor, informe seu nome",
+        "type": "text"
+    },
+    {
+        "id": "telefone",
+        "prompt": "Por favor, informe seu telefone",
+        "type": "text"
+    },
+    {
+        "id": "endereco",
+        "prompt": "Por favor, informe seu endereço",
+        "type": "text"
+    }
+]
