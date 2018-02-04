@@ -21,14 +21,14 @@ Exemplos de códigos da [Maratona Bots](https://ticapacitacion.com/curso/botspt/
 
 | Módulo        | Lição           | Código  | Outros |
 | ------------- |-------------| :-----:| :----- |
-| Módulo 2 | Lição 2: QnA Maker e Active Learning | m2l2 | |
-| Módulo 2 | Lição 3: Testando o seu FAQ Bot | m2l3 | |
-| Módulo 3 | Lição 1: Componentes Multimídia | m3l1 | |
-| Módulo 3 | Lição 2: Componentes de Navegação e Manipulação de Arquivos | m3l2 | |
-| Módulo 3 | Lição 3: Ciclo de vida de um diálogo | m3l3 | |
-| Módulo 3 | Lição 4: Construção de uma API de Dados no Azure | m3l4 | |
-| Módulo 3 | Lição 5: Construção de um Workflow | m3l5m | Feito de forma manual |
-| Módulo 3 | Lição 5: Construção de um Workflow | m3l5w | Feito com a biblioteca [dgkanatsios/formflowbotbuilder](https://github.com/dgkanatsios/formflowbotbuilder) | 
+| 2 | 2: QnA Maker e Active Learning | m2l2 | |
+| 2 | 3: Testando o seu FAQ Bot | m2l3 | |
+| 3 | 1: Componentes Multimídia | m3l1 | |
+| 3 | 2: Componentes de Navegação e Manipulação de Arquivos | m3l2 | |
+| 3 | 3: Ciclo de vida de um diálogo | m3l3 | |
+| 3 | 4: Construção de uma API de Dados no Azure | m3l4 | |
+| 3 | 5: Construção de um Workflow | m3l5m | Feito de forma manual |
+| 3 | 5: Construção de um Workflow | m3l5w | Feito com a biblioteca [dgkanatsios/formflowbotbuilder](https://github.com/dgkanatsios/formflowbotbuilder) | 
 
 #### Recuperar as chaves do QnA Maker
 
