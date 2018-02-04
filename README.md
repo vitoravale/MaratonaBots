@@ -20,7 +20,7 @@ Exemplos de códigos da [Maratona Bots](https://ticapacitacion.com/curso/botspt/
 3. Rode a aplicação utilizando `npm run CÓDIGO`, onde __código__ pode ser:
 
 | Módulo        | Lição           | Código  | Outros |
-| ------------- |-------------| :-----:| :----- |
+| :-------------: | :-------------| :-----:| :----- |
 | 2 | 2: QnA Maker e Active Learning | m2l2 | |
 | 2 | 3: Testando o seu FAQ Bot | m2l3 | |
 | 3 | 1: Componentes Multimídia | m3l1 | |
