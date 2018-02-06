@@ -12,6 +12,8 @@
     "m3l4": "node ./modulo3/licao4/app.js",
     "m3l5m": "node ./modulo3/licao5/manual/app.js",
     "m3l5w": "node ./modulo3/licao5/workflow/app.js",
+    "m4l1": "node ./modulo4/licao1/app.js",
+    "m4l2": "node ./modulo4/licao2/app.js",
     "rich-cards": "node ./extras/rich-cards/app.js"
   },
   "keywords": [
@@ -37,6 +39,7 @@
     "dotenv-extended": "^2.0.1",
     "formflowbotbuilder": "^0.1.4",
     "install": "^0.10.2",
+    "moment": "^2.20.1",
     "npm": "^5.6.0",
     "request": "^2.83.0",
     "restify": "^6.3.4"

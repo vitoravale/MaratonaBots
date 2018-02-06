@@ -29,6 +29,8 @@ Exemplos de códigos da [Maratona Bots](https://ticapacitacion.com/curso/botspt/
 | 3 | 4: Construção de uma API de Dados no Azure | m3l4 | |
 | 3 | 5: Construção de um Workflow | m3l5m | Feito de forma manual |
 | 3 | 5: Construção de um Workflow | m3l5w | Feito com a biblioteca [dgkanatsios/formflowbotbuilder](https://github.com/dgkanatsios/formflowbotbuilder) | 
+| 4 | 1: Visão geral da plataforma | m4l1 | Projeto base para o módulo |
+| 4 | 2: LUIS e o processamento de linguagem | m4l2 | |
 
 #### Recuperar as chaves do QnA Maker
 
