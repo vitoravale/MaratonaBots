@@ -35,14 +35,14 @@ const recognizer = new cognitiveServices.QnAMakerRecognizer({
   top: 3
 })
 
-const qnaMakerTools = new cognitiveServices.QnAMakerTools()
-bot.library(qnaMakerTools.createLibrary())
+const brazilianQnaMakerTools = new brazilianTools.BrazilianQnaMakerTools()
+bot.library(brazilianQnaMakerTools.createLibrary())
 
 const basicQnaMakerDialog = new cognitiveServices.QnAMakerDialog({
   recognizers: [recognizer],
   defaultMessage: 'Não encontrado! Tente alterar os termos da pergunta!',
   qnaThreshold: 0.5,
-  feedbackLib: qnaMakerTools
+  feedbackLib: brazilianQnaMakerTools
 })
 
 basicQnaMakerDialog.respondFromQnAMakerResult = (session, qnaMakerResult) => {
