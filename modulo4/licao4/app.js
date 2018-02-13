@@ -7,7 +7,8 @@ const utils = require('../shared/utils')
 const descreverImagemDialog = require('../shared/dialogs/descrever-imagem-dialog')
 const reconhecerEmocoesDialog = require('../shared/dialogs/reconhecer-emocoes-dialog')
 const classificarImagemDialog = require('../shared/dialogs/classificar-imagem-dialog')
-const recomendarPorProdutoDialog = require('../shared/dialogs/recomendar-produto-dialog')
+const recomendarPorProdutoDialog = require('../shared/dialogs/recomendar-por-produto-dialog')
+const recomendarPorPerfilDialog = require('../shared/dialogs/recomendar-por-perfil-dialog')
 
 //=========================================================
 // Bot Setup
@@ -74,15 +75,7 @@ intents.matches('traduzir-texto', (session, args, next) => {
 
 intents.matches('recomendar-por-produto', recomendarPorProdutoDialog)
 
-intents.matches('recomendar-por-perfil', (session, args, next) => {
-    const usuario = builder.EntityRecognizer.findEntity(args.entities, 'usuario')
-    if(usuario && usuario.entity && !!usuario.entity.length){
-        session.send(`**(¬‿¬)** - Seu id de usuário é **${usuario.entity}**. Quando eu aprender a recomendar eu te respondo...`)
-    }
-    else {
-        session.send('**(ಥ﹏ಥ)** - Foi mal, não sei recomendar nada, mas quando aprender vou precisar do seu id de usuário...')
-    }
-})
+intents.matches('recomendar-por-perfil', recomendarPorPerfilDialog)
 
 intents.onDefault((session, args) => {
     session.send(`Desculpe, não pude compreender **${session.message.text}**\n\nLembre-se que sou um bot e meu conhecimento é limitado.`)

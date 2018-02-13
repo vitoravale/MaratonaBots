@@ -34,7 +34,25 @@ class AzureRecommendation {
     }
 
     searchRecommendationsByUser(userId) {
-        
+        return new Promise((resolve, reject) => {
+            userId = userId.replace(/\s/g, '')
+            const payload = {
+                url: `${this._url}/models/${this._modelId}/recommend/user?userId=${userId}&numberOfResults=${this._numberOfResults}&buildId=${this._buildId}&includeMetadata=${this._includeMetadata}&minimalScore=0`,
+                json: true,
+                headers: {
+                    'Ocp-Apim-Subscription-Key': this._key,
+                    'content-type': 'application/json'
+                }
+            }
+
+            request.get(payload, (error, response, body) => {
+                if (error)
+                    return reject(error)
+                else if (response.statusCode !== 200)
+                    return reject(body)
+                resolve(Object.assign({userId: userId}, body))
+            })
+        })
     }
 
 }
