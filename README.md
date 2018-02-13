@@ -5,6 +5,7 @@ Exemplos de códigos da [Maratona Bots](https://ticapacitacion.com/curso/botspt/
  juntamente com o [BotBuilder-CognitiveServices](https://github.com/Microsoft/BotBuilder-CognitiveServices/) e as plataformas:
  * [QnA Maker](https://qnamaker.ai/).
  * [LUIS](https://www.luis.ai/)
+ * [Custom Vision](https://customvision.ai/)
 
 ### Instalação
 
