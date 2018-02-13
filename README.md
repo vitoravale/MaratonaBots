@@ -28,6 +28,7 @@ Exemplos de códigos da [Maratona Bots](https://ticapacitacion.com/curso/botspt/
 | 4 | 1: Visão geral da plataforma | m4l1 | Projeto base para o módulo |
 | 4 | 2: LUIS e o processamento de linguagem | m4l2 | |
 | 4 | 3: Computer Vision | m4l3 | |
+| 4 | 4: Pesquisa e Recomendação | m4l4 | |
 
 #### Recuperar as chaves do QnA Maker
 

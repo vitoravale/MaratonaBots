@@ -15,6 +15,7 @@
     "m4l1": "node ./modulo4/licao1/app.js",
     "m4l2": "node ./modulo4/licao2/app.js",
     "m4l3": "node ./modulo4/licao3/app.js",
+    "m4l4": "node ./modulo4/licao4/app.js",
     "rich-cards": "node ./extras/rich-cards/app.js"
   },
   "keywords": [
