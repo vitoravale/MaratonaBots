@@ -3,7 +3,7 @@ require('dotenv-extended').load()
 
 const builder = require('botbuilder')
 const restify = require('restify')
-const utils = require('./utils')
+const utils = require('../shared/utils')
 const descreverImagemDialog = require('../shared/dialogs/descrever-imagem-dialog')
 const reconhecerEmocoesDialog = require('../shared/dialogs/reconhecer-emocoes-dialog')
 const classificarImagemDialog = require('../shared/dialogs/classificar-imagem-dialog')
