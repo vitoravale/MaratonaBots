@@ -14,6 +14,7 @@
     "m3l5w": "node ./modulo3/licao5/workflow/app.js",
     "m4l1": "node ./modulo4/licao1/app.js",
     "m4l2": "node ./modulo4/licao2/app.js",
+    "m4l3": "node ./modulo4/licao3/app.js",
     "rich-cards": "node ./extras/rich-cards/app.js"
   },
   "keywords": [
@@ -41,9 +42,12 @@
     "html-entities": "^1.2.1",
     "install": "^0.10.4",
     "moment": "^2.20.1",
+    "needle": "^2.1.1",
     "npm": "^5.6.0",
     "request": "^2.83.0",
-    "restify": "^6.3.4"
+    "restify": "^6.3.4",
+    "url": "^0.11.0",
+    "valid-url": "^1.0.9"
   },
   "engines": {
     "node": ">=8.0.0"
