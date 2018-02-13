@@ -13,11 +13,6 @@ Exemplos de códigos da [Maratona Bots](https://ticapacitacion.com/curso/botspt/
 2. Entre na pasta do projeto e instale as dependências com `npm install`
 3. Atualize as chaves dentro do arquivo `.env` na raiz do projeto. 
 
-| Serviço | Chaves para atualizar |
-| ----- | :- |  
-| QnA Maker | `QNA_KNOWLEDGE_BASE_ID` e `QNA_SUBSCRIPTION_KEY` |
-| LUIS | `LUIS_MODEL_URL` |
-
 3. Rode a aplicação utilizando `npm run CÓDIGO`, onde __código__ pode ser:
 
 | Módulo        | Lição           | Código  | Outros |
