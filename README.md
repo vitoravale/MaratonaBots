@@ -29,6 +29,7 @@ Exemplos de códigos da [Maratona Bots](https://ticapacitacion.com/curso/botspt/
 | 4 | 2: LUIS e o processamento de linguagem | m4l2 | |
 | 4 | 3: Computer Vision | m4l3 | |
 | 4 | 4: Pesquisa e Recomendação | m4l4 | |
+| 4 | 5: Localização | m4l5 | |
 
 #### Recuperar as chaves do QnA Maker
 

@@ -16,6 +16,7 @@
     "m4l2": "node ./modulo4/licao2/app.js",
     "m4l3": "node ./modulo4/licao3/app.js",
     "m4l4": "node ./modulo4/licao4/app.js",
+    "m4l5": "node ./modulo4/licao5/app.js",
     "rich-cards": "node ./extras/rich-cards/app.js"
   },
   "keywords": [
@@ -39,6 +40,7 @@
     "botbuilder": "^3.14.0",
     "botbuilder-cognitiveservices": "^1.1.0",
     "dotenv-extended": "^2.0.1",
+    "fast-xml-parser": "^3.0.1",
     "formflowbotbuilder": "^0.1.4",
     "html-entities": "^1.2.1",
     "install": "^0.10.4",

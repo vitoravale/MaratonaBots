@@ -85,7 +85,6 @@ const descreverError = (session) => {
         let errorMessage = 'Opa, algo deu errado. Tente novamente depois.'
         if(error.message && error.message.indexOf('Access denied') > -1)
             errorMessage += '\n' + error.message
-        console.log(error)
         session.send(errorMessage)
     }
 }
