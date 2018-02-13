@@ -4,9 +4,9 @@ require('dotenv-extended').load()
 const builder = require('botbuilder')
 const restify = require('restify')
 const utils = require('./utils')
-const descreverImagemDialog = require('./dialogs/descrever-imagem-dialog')
-const reconhecerEmocoesDialog = require('./dialogs/reconhecer-emocoes-dialog')
-const classificarImagemDialog = require('./dialogs/classificar-imagem-dialog')
+const descreverImagemDialog = require('../shared/dialogs/descrever-imagem-dialog')
+const reconhecerEmocoesDialog = require('../shared/dialogs/reconhecer-emocoes-dialog')
+const classificarImagemDialog = require('../shared/dialogs/classificar-imagem-dialog')
 
 //=========================================================
 // Bot Setup
